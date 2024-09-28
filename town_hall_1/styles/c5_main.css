@@ -3,8 +3,8 @@ html{
 }
 /* custom property */
 * {
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -28,7 +28,7 @@ a:focus, a:hover {
 header {
 	border-bottom: 3px solid #931420;
 	padding: 1.5em 30px 2em 30px;
-	background: linear-gradient(30deg, #f6bb73 0%, white 50%, #f6bb73 80%, #f6bb73 100%;
+	background: linear-gradient(30deg, #f6bb73 0%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 
 header h1{
