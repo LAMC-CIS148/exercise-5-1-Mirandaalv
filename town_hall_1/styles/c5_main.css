@@ -19,7 +19,7 @@ a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
-header h {
+header {
 	border-bottom: 3px solid #931420;
 	padding: 10px;
 }
