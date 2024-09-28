@@ -1,3 +1,6 @@
+html{
+	background-color: white;
+}
 /* custom property */
 :root {
 	--global-color-1: #800000;
@@ -6,13 +9,28 @@
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    margin-left: 10px;
+    	font-size: 100%;
+	margin-left: 10px;
+ 	width: 600px; 
+	background-color: #fffddd;
+	border: 3px solid #931420;
 }
 a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
+header h {
+	border-bottom: 3px solid #931420;
+	padding: 10px;
+}
+
+header h1{
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+	padding: 10px;
+}
+
+
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
@@ -32,6 +50,7 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding: 20px;
 }
 main h1 {
 	font-size: 150%;
@@ -67,4 +86,12 @@ main li {
 footer p {
 	text-align: center;
 	padding: 1em 0;
+}
+
+footer {
+	background-color: #931420;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border-top: 3px solid #931420;
 }
