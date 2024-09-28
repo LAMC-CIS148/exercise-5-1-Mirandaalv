@@ -2,6 +2,12 @@ html{
 	background-color: white;
 }
 /* custom property */
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
 :root {
 	--global-color-1: #800000;
 }
@@ -21,13 +27,14 @@ a:focus, a:hover {
 /* the styles for the header */
 header {
 	border-bottom: 3px solid #931420;
-	padding: 10px;
+	padding: 1.5em 30px 2em 30px;
+	background: linear-gradient(30deg, #f6bb73 0%, white 50%, #f6bb73 80%, #f6bb73 100%;
 }
 
 header h1{
 	border-top: 3px solid #931420;
 	border-bottom: 3px solid #931420;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 
@@ -50,7 +57,7 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
-	padding: 20px;
+	padding: 30px;
 }
 main h1 {
 	font-size: 150%;
@@ -94,4 +101,10 @@ footer {
 	text-align: center;
 	padding: 10px;
 	border-top: 3px solid #931420;
+	padding-right: 30px;
 }
+
+blockquote {
+	font-style: italic;
+}
+
